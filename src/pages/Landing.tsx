@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Shield, Heart, TrendingUp, CheckCircle2 } from "lucide-react";
+import ChatWindow from "@/components/ui/ChatWindow";
 
 const Landing = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
+      <ChatWindow />
       <section className="gradient-hero py-20 px-4 text-center text-white">
         <div className="container mx-auto max-w-4xl">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">

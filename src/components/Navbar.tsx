@@ -23,7 +23,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 font-bold text-xl">
             <div className="w-10 h-10 rounded-xl gradient-hero flex items-center justify-center">
-              <Heart className="h-5 w-5 text-white" />
+              <img src="/public/Logo.jpg" />
             </div>
             <span className="hidden sm:inline">Neki Ki Deewar</span>
           </Link>
